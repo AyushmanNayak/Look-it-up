@@ -1,0 +1,27 @@
+{
+    "manifest_version" : 3,
+    "name" : "Look it up",
+    "version" : "1.0",
+    "description" : "When in doubt, just look it up. Metal GC anyone?",
+    "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting"],
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "icon.png",
+          "48": "icon.png",
+          "128": "icon.png"
+        }
+    },
+    "icons" : {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png" 
+    }
+
+}
